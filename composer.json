@@ -1,11 +1,14 @@
 {
+    "name": "tony133/php-example-tdd",
+    "desciption": "Simple Example of TDD with phpunit",
+    "tags": ["php","tdd","phpunit"],
     "require": {
         "php": ">=5.5.9"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.0"
     },
-	"autoload": {
+    "autoload": {
         "psr-4": {
             "": "./src"
         }
